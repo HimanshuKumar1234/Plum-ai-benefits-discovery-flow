@@ -25,6 +25,9 @@ npm run build
 
 ---
 
+
+![alt text](1page-2.png)
+
 ## 🏗️ Architecture
 
 ### Tech Stack
