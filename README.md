@@ -59,7 +59,10 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Animated healthcare icons, glassmorphism UI
 - Example queries for guidance
 
-**Screenshot**: *(Add your screenshot here)*
+**Screenshot**: 
+![Uploading 1page.png…]()
+
+
 
 ---
 
@@ -87,6 +90,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Back button to explore more benefits
 
 **Screenshot**: *(Add your screenshot here)*
+![Uploading 1page.png…]()
 
 ---
 
