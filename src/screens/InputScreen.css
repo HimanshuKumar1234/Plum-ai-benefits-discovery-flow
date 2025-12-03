@@ -1,0 +1,239 @@
+.input-screen {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.floating-elements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.float-icon {
+    position: absolute;
+    font-size: 3rem;
+    opacity: 0.15;
+    filter: blur(1px);
+}
+
+.float-icon:nth-child(1) {
+    top: 15%;
+    left: 10%;
+}
+
+.float-icon:nth-child(2) {
+    top: 60%;
+    right: 15%;
+}
+
+.float-icon:nth-child(3) {
+    bottom: 20%;
+    left: 20%;
+}
+
+.input-content {
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-teal), var(--accent-blue));
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 40px rgba(0, 180, 180, 0.3);
+    animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.logo-icon svg {
+    color: white;
+}
+
+.header h1 {
+    margin-bottom: 16px;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.input-form {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow-lg);
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.input-icon {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    color: var(--primary-teal);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.main-input {
+    width: 100%;
+    padding: 16px 20px 16px 56px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    resize: vertical;
+    min-height: 120px;
+    transition: all var(--transition-base);
+}
+
+.main-input:focus {
+    outline: none;
+    border-color: var(--primary-teal);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 4px rgba(0, 180, 180, 0.1);
+}
+
+.main-input::placeholder {
+    color: var(--text-muted);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 18px 32px;
+    font-size: 1.1rem;
+    justify-content: center;
+}
+
+.submit-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+.examples-section {
+    margin-bottom: 40px;
+}
+
+.examples-label {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.examples-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.example-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    text-align: left;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+}
+
+.example-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--primary-teal);
+    box-shadow: var(--shadow-md);
+}
+
+.example-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+}
+
+.example-text {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.trust-section {
+    text-align: center;
+}
+
+.trust-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.trust-icon {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .input-form {
+        padding: 24px;
+    }
+
+    .examples-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .trust-items {
+        gap: 20px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+}
