@@ -72,7 +72,8 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Custom loading animation with pulse effects
 - Categories: 🦷 Dental | 🧠 Mental Health | 👁️ Vision | 🏥 OPD
 
-**Screenshot**: *(Add your screenshot here)*
+**Screenshot**:
+![alt text](2page-2.png)
 
 ---
 
@@ -81,7 +82,8 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Category badges, coverage amounts (₹50,000)
 - Click card to view action plan
 
-**Screenshot**: *(Add your screenshot here)*
+**Screenshot**: 
+![alt text](3page-2.png)
 
 ---
 
@@ -91,7 +93,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Back button to explore more benefits
 
 **Screenshot**: *(Add your screenshot here)*
-![Uploading 1page.png…]()
+![alt text](3page-2.png)
 
 ---
 
