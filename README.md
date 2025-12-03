@@ -61,7 +61,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Example queries for guidance
 
 **Screenshot**: 
-![alt text](1page-2.png)
+![alt text](Image/1page-2.png)
 
 
 
