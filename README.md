@@ -83,7 +83,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Click card to view action plan
 
 **Screenshot**: 
-![alt text](3page-2.png)
+![alt text](3page.png)
 
 ---
 
@@ -93,7 +93,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Back button to explore more benefits
 
 **Screenshot**: *(Add your screenshot here)*
-![alt text](3page-2.png)
+![alt text](4page.png)
 
 ---
 
