@@ -73,7 +73,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Categories: 🦷 Dental | 🧠 Mental Health | 👁️ Vision | 🏥 OPD
 
 **Screenshot**:
-![alt text](2page-2.png)
+![alt text](2page.png)
 
 ---
 
