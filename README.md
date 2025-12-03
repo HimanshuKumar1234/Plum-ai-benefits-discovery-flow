@@ -73,7 +73,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Categories: 🦷 Dental | 🧠 Mental Health | 👁️ Vision | 🏥 OPD
 
 **Screenshot**:
-![alt text](2page.png)
+![alt text](Image/2page.png)
 
 ---
 
@@ -83,7 +83,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Click card to view action plan
 
 **Screenshot**: 
-![alt text](3page.png)
+![alt text](Image/3page.png)
 
 ---
 
@@ -93,7 +93,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Back button to explore more benefits
 
 **Screenshot**: *(Add your screenshot here)*
-![alt text](4page.png)
+![alt text](Image/4page.png)
 
 ---
 
