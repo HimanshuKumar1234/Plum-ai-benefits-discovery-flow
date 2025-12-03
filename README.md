@@ -26,8 +26,6 @@ npm run build
 ---
 
 
-![alt text](1page-2.png)
-
 ## 🏗️ Architecture
 
 ### Tech Stack
@@ -63,7 +61,7 @@ Input Screen → AI Classification → Benefits Display → Action Plan
 - Example queries for guidance
 
 **Screenshot**: 
-![Uploading 1page.png…]()
+![alt text](1page-2.png)
 
 
 
